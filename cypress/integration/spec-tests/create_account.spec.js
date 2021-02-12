@@ -19,10 +19,10 @@ describe('Get to Account Creation', ()=>{
     });
 
     it('Create an account', ()=>{
-        cy.url()
-        .should('include', '/index.php?controller=authentication&back=my-account#account-creation');
-
-        CreateAccountPage.ensurePageLoaded();
+        CreateAccountPage.accountForm().should('be.visible');
         CreateAccountPage.registerAccount();
+        // Assert getting to the my account page
+        cy.url()
+            .should('include', '/index.php?controller=my-account')
     });
 });
