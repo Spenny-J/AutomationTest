@@ -1,0 +1,24 @@
+{
+    "default": {
+        "firstName": "Bob",
+        "lastName": "Bobberson",
+        "email": "jensenrspencer+[REPLACE]@gmail.com",
+        "password": "$eCuR3P@$$W0rD",
+        "birthDay": 1,
+        "birthMonth": "March",
+        "birthYear": 1998,
+        "newsLetter": true,
+        "specialOffers": true,
+        "addressFirstName": "Bob",
+        "addressLastName": "Bobberson",
+        "address": "One Microsoft Way, Redmond, WA 98052",
+        "addressUnit": "Unit 321",
+        "city": "Redmond",
+        "zip": 98052,
+        "country":"United States",
+        "additionalInfo": "Ring the doorbell 3 times.",
+        "homePhone": "44444444444",
+        "mobilePhone": "55555555555",
+        "addressAlias": "Workplace"
+    }
+}

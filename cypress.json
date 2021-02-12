@@ -1,0 +1,5 @@
+{
+    "defaultCommandTimeout": 15000,
+    "modifyObstructiveCode": true,
+    "experimentalSourceRewriting": true
+}
