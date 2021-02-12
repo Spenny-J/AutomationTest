@@ -18,6 +18,10 @@
      userBtn(){
         return cy.get('div.nav').find('a.account');
      }
+
+     homePageBtn(){
+        return cy.get('img.logo.img');
+     }
  }
 
  
