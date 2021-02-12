@@ -21,5 +21,9 @@
         "homePhone": "44444444444",
         "mobilePhone": "55555555555",
         "addressAlias": "Workplace"
+    },
+    "user1":{
+        "email": "jensenrspencer+1@gmail.com",
+        "password": "password"
     }
 }
