@@ -12,7 +12,7 @@ Items used prior to running the tests:
 
 ```
 Install
-- [Visual Studio Code](https://code.visualstudio.com/) - IDE Used for development
+- (Optional) Visual Studio Code
 - Cypress 
 - Cypress-file-upload
 ```
