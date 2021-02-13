@@ -24,8 +24,6 @@
         this.findContactElement('input#fileUpload').attachFile('testImage.PNG');
         cy.get('button#submitMessage').click();
     }
-
-
  }
 
  module.exports = new ContactUsPage();
