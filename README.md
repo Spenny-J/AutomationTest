@@ -21,13 +21,13 @@ Install
 
 How to install and run the automation test suites:
 
-Run the cy:install script.
+For installing Cypress run the cy:install script.
 
 ```
-npm cy:install
+npm run cy:install
 ```
 
-Run the cyFile:install for the file upload dependency.
+For installing cypress-file-upload run the cyFile:install for the file upload dependency.
 
 ```
 npm run cyFile:install
