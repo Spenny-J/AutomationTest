@@ -42,6 +42,7 @@
             this.findAccountCreationElement('input#phone').type(personObj.homePhone);
             this.findAccountCreationElement('input#phone_mobile').type(personObj.mobilePhone);
             this.findAccountCreationElement('input#alias').clear().type(personObj.addressAlias);
+            
             return this.findAccountCreationElement('button#submitAccount').click();
         }
  } 
